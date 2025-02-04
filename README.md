@@ -1,7 +1,4 @@
 # Event-Management-System-Django-Python-
-Event Management System - Django
-Django
-Python
 
 This is an Event Management System built using Django and Python. It allows users to manage events, attendees, schedules, and more. The project is designed to be easy to set up and run locally.
 
@@ -87,7 +84,18 @@ Copy
 http://127.0.0.1:8000/admin/
 Project Structure
 Copy
-
+Event-Management-System-Django-Python/
+├── manage.py
+├── requirements.txt
+├── env/                   # Virtual environment folder
+├── event_management/      # Main Django app
+│   ├── migrations/        # Database migrations
+│   ├── templates/         # HTML templates
+│   ├── admin.py           # Admin configurations
+│   ├── models.py          # Database models
+│   ├── views.py           # Application views
+│   └── urls.py            # URL routing
+└── README.md              # Project documentation
 Contributing
 Contributions are welcome! If you'd like to contribute, please follow these steps:
 
@@ -110,7 +118,7 @@ Python Documentation: https://docs.python.org/3/
 Contact
 For any questions or feedback, feel free to reach out:
 
-Name: Katakam Varun Kumar
+Name: Varun Kumar
 
 GitHub: VARUN-KUMAR13
 
